@@ -1,0 +1,24 @@
+{
+    "sections": {
+        "about": {
+            "type": "about",
+            "settings": {
+            }
+        },
+        "featured-products": {
+            "type": "featured-products",
+            "settings": {
+            }
+        },
+        "bottom-image": {
+            "type": "bottom-image",
+            "settings": {
+            }
+        }
+    },
+    "order": [
+        "about",
+        "featured-products",
+        "bottom-image"
+    ]
+}
