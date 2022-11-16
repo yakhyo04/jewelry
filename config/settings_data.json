@@ -10,10 +10,19 @@
               "text": "Welcome to our store",
               "link": "\/"
             }
+          },
+          "a5d628d1-02cd-48a8-aa3b-02f474b40f79": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Welcome to our store",
+              "link": "\/"
+            }
           }
         },
         "block_order": [
-          "b2e359b1-76cf-4a7b-b424-e6aa71b2a25a"
+          "b2e359b1-76cf-4a7b-b424-e6aa71b2a25a",
+          "a5d628d1-02cd-48a8-aa3b-02f474b40f79"
         ],
         "settings": {
         }
