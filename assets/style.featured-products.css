@@ -18,11 +18,6 @@
     align-items: center;
     grid-gap: 40px;
 }
-.product__image{
-    /* position: absolute;
-    top: 0; */
-    height: 80%;
-}
 .product__item{
     /* width: 255px; */
     /* height: 386px; */
@@ -32,10 +27,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* border-top-left-radius: 42%;
-    border-top-right-radius: 42%; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
     /* clip-path: polygon(100% 0%, 100% 0%, 100% 10%, 100% 100%, 0% 100%, 0% 0%); */
-    clip-path: polygon(0 88.05px,28px 28px,88.05px 0,calc(100% - 88.05px) 0,calc(100% - 28px) 28px,100% 88.05px,100% 100%,0 100%);
+    /* clip-path: polygon(0 88.05px,28px 28px,88.05px 0,calc(100% - 88.05px) 0,calc(100% - 28px) 28px,100% 88.05px,100% 100%,0 100%); */
 }
 .product__money{
     margin: 4px 0 10px 0;

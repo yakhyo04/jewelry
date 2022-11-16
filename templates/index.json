@@ -14,11 +14,23 @@
             "type": "bottom-image",
             "settings": {
             }
+        },
+        "banner-section": {
+            "type": "banner-section",
+            "settings": {
+            }  
+        },
+        "subscribe": {
+            "type": "subscribe",
+            "settings": {
+            }
         }
     },
     "order": [
         "about",
         "featured-products",
-        "bottom-image"
+        "bottom-image",
+        "banner-section",
+        "subscribe"
     ]
 }

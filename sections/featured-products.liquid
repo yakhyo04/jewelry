@@ -5,13 +5,13 @@
         <h3 class="product__title">{{ section.settings.title }}</h3>
         <div class="products__wrapper">
             {% for product in section.settings.product_lists %}
-            <div class="product__item">
-                    <img class="product__image" src="{{ product.featured_image.src | img_url: 'small' }}" alt="{{ product.featured_image.alt }}">
-                    <div class="product__content">
+            <div class="product__item" id="shield">
+                    <img class="product__image" src="{{ product.featured_image.src | img_url: 'medium' }}" alt="{{ product.featured_image.alt }}">
+                    <!-- <div class="product__content"> -->
                         <h3>{{ product.title }}</h3>
                     <h5 class="product__money" >{{ product.price | money }}</h5>
                     <a class="product__link" href="{{ section.settings.product_link }}">{{ section.settings.product_title }}</a>
-                    </div>
+                    <!-- </div> -->
                 </div>
                 {% endfor %}
         </div>
