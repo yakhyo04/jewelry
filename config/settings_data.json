@@ -1,6 +1,45 @@
 {
-  "current": "Default",
+  "current": {
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "b2e359b1-76cf-4a7b-b424-e6aa71b2a25a": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "link": "\/"
+            }
+          }
+        },
+        "block_order": [
+          "b2e359b1-76cf-4a7b-b424-e6aa71b2a25a"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/white_logo.png",
+          "link": "",
+          "dark_logo": "shopify:\/\/shop_images\/dark_logo.png"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_logo": "shopify:\/\/shop_images\/dark_logo.png",
+          "social_icon": "shopify:\/\/shop_images\/icon.jpg"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
-    "Default": { }
+    "Default": {
+    }
   }
 }
